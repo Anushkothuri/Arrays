@@ -1,3 +1,4 @@
+// Array declaration and initialization.
 #include<stdio.h>
 int main()
 {
@@ -6,7 +7,7 @@ int main()
     int i;
     for(i=0;i<4;i++)
     {
-        printf("%d",arr[i]);
+        printf("%d\t",arr[i]);
     }
     printf("\n");
     return 0;
